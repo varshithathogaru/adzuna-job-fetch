@@ -1,3 +1,48 @@
+# Adzuna Job Fetch (React + Vite)
+
+This project demonstrates how to fetch job listings from the **Adzuna API** using React and Vite.  
+It integrates with Adzuna’s REST API using an App ID and App Key, and displays job results with company, location, and a link to the full listing.
+
+---
+
+## 🚀 Features
+- Fetches live job listings from Adzuna API
+- Displays job title, company, location, and link
+- Handles loading, error, and empty states gracefully
+- Built with **React + Vite** for fast development
+
+---
+
+## 🛠️ Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/varshithathogaru/adzuna-job-fetch.git
+   cd adzuna-job-fetch
+2.Install dependencies
+npm install
+
+3.Add your Adzuna credentials  
+Create a .env file in the project root:
+VITE_ADZUNA_APP_ID=d4d43603
+VITE_ADZUNA_APP_KEY=e036d2521e10370cedd23ae7db78b884
+
+4.Run the dev server
+npm run dev
+
+
+
+📂 Key Files
+src/adzuna.jsx → Adzuna job fetch component
+src/App.jsx → Example usage of the component
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
